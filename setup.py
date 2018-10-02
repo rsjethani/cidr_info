@@ -11,7 +11,11 @@ setup(
     author = "Ravi Shekhar Jethani",
     author_email = "rsjethani@gamil.com",
     py_modules = ["cidr_info"],
+    install_requires = [],
     entry_points = {
         "console_scripts": ["cidr_info=cidr_info:main"]
+    },
+    project_urls = {
+        "source": "https://github.com/rsjethani/cidr_info"
     }
 )
